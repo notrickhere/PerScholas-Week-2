@@ -1,0 +1,63 @@
+@font-face {
+    font-family: restrauntFont;
+    src: url(https://web-assets.stockx.com/fonts/SuisseIntl-Regular-WebM.woff2);
+}
+body{
+    background-color: coral;
+    font-family: restrauntFont, Arial, sans-serif;
+    color: white
+}
+.navBar{
+    
+    display: flex;
+    margin:auto;
+    height: 100px;
+
+}
+.gappleBeesLogo{
+    
+    display: flex;
+    max-height: fit-content;
+    
+}
+.menuItems{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 80%;
+}
+.shoppingCart{
+    border: solid black;
+    display: flex;
+    max-height: fit-content;
+}
+.welcomeMessage{
+    
+    text-align: center;
+}
+.category{
+    border: solid  brown;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}.foodBox{
+    border: solid brown;
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.foodPic{
+    width: 300px;
+}
+.foodName, .price{
+    text-decoration: underline;
+}
